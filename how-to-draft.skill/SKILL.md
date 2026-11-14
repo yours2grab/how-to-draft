@@ -334,7 +334,7 @@ Save the .md version to both locations. Use the SAME root as the current working
 1. `{ROOT}/Marketing/Newsletter/Content/how-we-built-[short-name].md`
 2. `{ROOT}/Virgil Second Brain/Content/Blog Content/how-we-built-[short-name].md`
 
-Where `{ROOT}` is the current project root (e.g. `/Users/virgilbrewster/My Drive/Sucana Test Drive Sandbox/`).
+Where `{ROOT}` is the current project root (e.g. `/Users/virgilbrewster/My Drive/Projects/`).
 
 **IMPORTANT:** Also copy to the real Obsidian vault if it's at a different path: `/Users/virgilbrewster/My Drive/Virgil Second Brain/Content/Blog Content/`. Always verify both locations exist. If a folder doesn't exist, create it.
 

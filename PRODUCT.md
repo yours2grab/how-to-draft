@@ -47,7 +47,7 @@ A Claude Code skill that documents everything we build into a step-by-step how-t
 - Article shown as HTML preview before saving. User approves in browser.
 - Multi-session builds: ask user which sessions to document. Never guess what happened in a session you can't see.
 - Save to 3 locations: Newsletter Content, Sandbox Virgil Second Brain, real Obsidian vault.
-- Integrated into SEO skill (sucana-seo) as Pattern 8: How-To. SEO skill detects how-to articles and uses this format.
+- Integrated into SEO skill (seo) as Pattern 8: How-To. SEO skill detects how-to articles and uses this format.
 
 ## Tested On
 
@@ -70,7 +70,7 @@ A Claude Code skill that documents everything we build into a step-by-step how-t
 ## Files
 
 ```
-Sucana/Skills/how-to-draft.skill/
+Skills/how-to-draft.skill/
 ├── SKILL.md      — the agent (6 steps, 357 lines)
 ├── PRODUCT.md    — this file
 └── PRD.md        — full spec with ASCII architecture
@@ -78,7 +78,7 @@ Sucana/Skills/how-to-draft.skill/
 
 ## SEO Skill Integration
 
-The how-to-draft format is embedded in the SEO skill (sucana-seo) as Pattern 8: How-To. When the SEO skill detects a how-to article (from CSV Format column or title), it:
+The how-to-draft format is embedded in the SEO skill (seo) as Pattern 8: How-To. When the SEO skill detects a how-to article (from CSV Format column or title), it:
 1. Scans for an existing how-to-draft output as source material
 2. Translates the "Do this / What happens / We tested / Why" format into Virgil's conversational voice
 3. Runs the 7-point checker + PRODUCT.md cross-check
@@ -88,7 +88,7 @@ Both skills stay standalone. This skill produces raw material. The SEO skill con
 
 ## GitHub
 
-`yours2grab/sucana-how-to-draft`
+`yours2grab/how-to-draft`
 
 ## Trigger Words
 
